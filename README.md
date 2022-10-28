@@ -1,16 +1,14 @@
 # PyPoll Election Audit Analysis
 
 ## Overview of Election Audit
-A Colorado Board of Elections employee, Tom, has assigned me the following tasks to complete the election audit of a recent congressional election:
+The purpose of this analysis is to complete the following tasks assigned by Tom, a Colorado Board of Elections employee. The data we will be analyzing is an election audit of tabulated results from a US Congressional precinct in Colorado.
 
 1. Calculate the total number of votes cast.
-2. Get a complete list of candidates who received votes.
-3. Calculate the total number of votes each candidate received.
-4. Calculate the percentage of votes each candidate won.
-5. Determine the winner of the election based on popular vote.
-6. Get a complete list of voter turnout for each county.
-7. Calculate the vote count & percentage of votes of each county in the precinct.
-8. Determine the county with the highest vote count turnout.
+2. Calculate the vote count & percentage of votes of each county in the precinct.
+3. Determine the county with the highest vote count turnout.
+4. Calculate the total number of votes each candidate received.
+5. Calculate the percentage of votes each candidate won.
+6. Determine the winner of the election based on popular vote.
 
 ## Resources
 - Data Source: election_results.csv
@@ -24,6 +22,5 @@ The election analysis shows that:
 * ![image](https://user-images.githubusercontent.com/107401667/198392044-af034bd3-6e28-4954-945f-e07fbb2592e1.png) Candidate Charles Casper Stockham received 23% of the vote and 85,213 number of votes. Candidate Diana DeGette received 73.8% of the vote and 272,892 number of votes. Candidate Raymon Anthony Doane received 3.1% of the vote and 11,606 number of votes.
 * ![image](https://user-images.githubusercontent.com/107401667/198392265-d9fbef0b-39b6-470c-8067-a62d20e0a9a0.png) Candidate Diana DeGette, who received 73.8% of the vote and 272,892 number of votes, won the election.
 
-## Challenge Overview
-
-## Challenge Summary
+## Election-Audit Summary
+After modifying the script, it can be used to compare this precinct's number total number of votes to other precincts' total number of votes. The first modification is creating a new spreadsheet on the CSV with all of Colorado's precincts and their total number of votes. The second modification is loading this file to the script and using a for loop to measure which precinct has the largest total number of votes.
